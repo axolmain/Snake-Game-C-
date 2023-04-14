@@ -20,6 +20,8 @@ namespace Snake
             // This is the main loop
             while (!Raylib.WindowShouldClose())
             {
+                movementControls.updatePlayerOneDirection();
+                movementControls.playerOneMovement();
                 movementControls.snakeGrowOverTime();
                 visual.loadDrawingBoard();
                 visual.drawCharacter(allCharacters.snake1, Color.RED);
@@ -27,6 +29,5 @@ namespace Snake
                 visual.stopDrawing();
             }
         }
-
     }
 }

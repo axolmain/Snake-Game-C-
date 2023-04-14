@@ -10,5 +10,6 @@ namespace Snake
         // Snake related
         public static int HEAD_WIDTH = 20;
         public static int HEAD_HEIGHT = 20;
+        public static int SNAKE_SPEED = 2;
     }
 }
