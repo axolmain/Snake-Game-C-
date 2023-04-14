@@ -1,0 +1,4 @@
+{
+    "omnisharp.sdkPath": "/usr/local/share/dotnet/x64/dotnet",
+    "dotnet.runtime.os": "x64"
+}
